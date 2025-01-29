@@ -1,0 +1,55 @@
+.body{
+
+
+}
+
+.cabeca{
+    background-color: red;
+    display:flex;
+    flex-direction:row;
+}
+
+.cabeca div{
+    display:flex;
+    flex-direction: row;
+}
+
+.cabeca-fim{
+    display:flex;
+    justify-content: end;
+    
+}
+
+.inicio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+
+.categorias{
+    display: flex;
+    flex-direction: row;
+    width: 203px;
+    height: 34px;
+    border: 1px;
+    border-color: black;
+    gap: 10px;
+    background-color: brown;
+   
+
+}
+
+.principais-categorias a{
+    align-items: end;
+    width: 787px;
+    height: 26px;
+}
+
+.bloco-cinza{
+    background-color: aqua;
+    width: 787px;
+    height: 39px;
+   
+}
