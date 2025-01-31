@@ -1,55 +1,254 @@
-.body{
-
-
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+    color: #333;
+    width: 1440px;
+    height: 3135px;
 }
 
-.cabeca{
-    background-color: red;
-    display:flex;
-    flex-direction:row;
+header {
+    background: #c40000;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1440px;
+    height: 100px;
 }
 
-.cabeca div{
-    display:flex;
+.logo {
+    display: flex;
     flex-direction: row;
+    gap:30px;
+    align-items: center;
+   
 }
 
-.cabeca-fim{
-    display:flex;
-    justify-content: end;
+.risco{
+    writing-mode: vertical-lr;
+    margin-left: -5px;
+
+}
+
+.texto p{
+    width: 787px;
+    height: 102px;
+    margin-top: 15px;
+    color:#707C8C;
+    line-height: 33.6px;
+    font-size: 21px;
+}
+.aspas-titulo{
+    display: flex;
+    flex-direction: row;
     
 }
 
-.inicio{
+.continue{
+    margin-right: 623px;
+    flex-direction: row;
+    display: flex;
+}
+
+.continue p{
+    background: linear-gradient(to right, rgba(200, 200, 200, 0.3), rgba(255, 255, 255, 0));
+    width: 163px;
+    height: 31px;
+    
+}
+
+.seta{
+    margin-top:20px;
+}
+
+.principais-categorias{
+    margin-right: 650px;
+    margin-top:30px;
+}
+
+.principais-categorias h2{
+    font-size: 26px;
+    color: #8D9AA6;
+
+}
+
+.aspas-titulo img{
+    margin-top: 8px;
+    margin-right: 10px;
+    width: 94.91px;
+    height: 72.52px;
+
+}
+
+.aspas-titulo h1{
+    font-size: 40px;
+    color:#273644;
+    width: 787px;
+    height: 168px;
+    line-height: 56px;
+}
+
+.fim-inicio{
+    display: flex;
+    flex-direction: row;
+}
+
+.texto-sublinhado {
+    text-decoration: underline;
+    display: flex;
+    gap:15px;
+    margin-right: 60px;
+}
+
+.pesquisa{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    align-items: center;
+    margin-right: 35px;
+}
+
+.pesquisa img{
+    width: 18px;
+    height: 18px;
+}
+
+.logo span img{
+    margin-left: 60px;
+   
+}
+
+.sergio{
+    margin-left: -35px;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+main {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    
-    
+    align-items: center;
+    margin-top: 100px;
 }
 
-.categorias{
-    display: flex;
-    flex-direction: row;
-    width: 203px;
-    height: 34px;
-    border: 1px;
-    border-color: black;
-    gap: 10px;
-    background-color: brown;
-   
-
-}
-
-.principais-categorias a{
-    align-items: end;
-    width: 787px;
-    height: 26px;
-}
 
 .bloco-cinza{
-    background-color: aqua;
     width: 787px;
     height: 39px;
+    background-color: #EFF2F7;
+    display:flex;
+    
+}
+
+.bloco-cinza a{
+    color: #EB5151;
+
+}
+
+.bloco-cinza p{
+    margin-top: 10px;
+    margin-left: 35px;
    
 }
+
+.bloco-cinza img{
+    width: 32px;
+    height: 25px;
+    margin-left: 25px;
+    margin-top: 9px;
+
+}
+.descricao {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.categorias {
+    margin-top: 15px;
+    
+}
+
+.categoria {
+    display: inline-block;
+    border-width: 1px;
+    border-style: solid;
+    border-color:#EB5151;
+    padding:8px;
+    
+}
+
+
+.link-categorias{
+    margin-top:25px;
+    margin-left:500px;
+}
+
+
+.fotos, .video-lista, .series-lista {
+    display: flex;
+    gap: 10px;
+}
+
+.fotos div, .video-lista div, .series-lista div {
+    background: #eee;
+    padding: 10px;
+    text-align: center;
+    width: 48%;
+}
+
+.fotos img, .video-lista img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.posts ul {
+    list-style: none;
+    padding: 0;
+}
+
+.posts ul li {
+    margin-bottom: 10px;
+}
+
+.posts ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.posts ul li a:hover {
+    color: #c40000;
+}
+
+footer {
+    background: #c40000;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.galeria h2{
+    color:#EB5151;
+    font-size: 26px;
+}
+
+.ultimos-posts{
+    display: flex;
+    justify-content: center;
+}
+
