@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    background: #c40000;
+    background: #C11616;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -115,7 +115,7 @@ header {
     height: 18px;
 }
 
-.logo span img{
+.logo img{
     margin-left: 60px;
    
 }
@@ -196,32 +196,16 @@ main {
     gap: 10px;
 }
 
-.fotos div, .video-lista div, .series-lista div {
-    background: #eee;
-    padding: 10px;
-    text-align: center;
-    width: 48%;
+.fotos{
+    display: flex;
 }
 
-.fotos img, .video-lista img {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-}
+.foto-inicio{
+    display: grid;
+    align-items: center;
+    gap: 10px;
 
-.posts ul {
-    list-style: none;
-    padding: 0;
-}
 
-.posts ul li {
-    margin-bottom: 10px;
-}
-
-.posts ul li a {
-    text-decoration: none;
-    color: #333;
-    font-size: 16px;
 }
 
 .posts ul li a:hover {
@@ -250,5 +234,46 @@ footer a {
 .ultimos-posts{
     display: flex;
     justify-content: center;
+}
+
+.ultima-publicação{
+    display: flex;
+    flex-direction: row;
+}
+
+.serie{
+    border-width: 1px;
+    border-style: solid;
+    border-color:#EB5151;
+    border-radius: 5px;
+    width: 280px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    padding:25px;
+    
+}
+
+.numero-publicações{
+    display:flex;
+    flex-direction: row;
+}
+
+.serie h3 b{
+    font-size: 18px;
+}
+
+.ultima-publicação b{
+    margin-top:18px;
+    color:#C11616
+}
+
+.series-lista{
+    color:#EB5151
+}
+
+.serie h2 b{
+    color:#C11616;
+
 }
 
