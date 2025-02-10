@@ -1,0 +1,173 @@
+.body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.container1{
+    background-color: hsl(224, 61%, 33%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    gap:53px;
+    border-bottom: solid 1px;
+    border-color: #FFFFFF;
+
+}
+
+.container1 p{
+    color:#FFFFFF;
+}
+
+.logo-app{
+    display: flex;
+    gap: 20px;
+    padding-right: 300px;
+    
+}
+
+.container2{
+    background-color: hsl(224, 61%, 33%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 300px;
+
+}
+
+.nomes{
+    display: flex;
+    gap:43px;
+    align-items: center;
+    color: #EFF2F7;
+    padding-right: 300px;
+}
+
+.final{
+    background: linear-gradient(
+        #0D3F82, #001736); 
+    width:1900px ;
+    height:398px ;
+    display: flex;
+    justify-content: end;
+        
+}
+
+.pipa-final{
+    width: 272px;
+    height: 278px;
+    gap: 47px;   
+    padding-left: 300px;
+   
+}
+
+.final-section{
+    display: flex;
+    gap:50px;
+   
+}
+
+.informacoes{
+    display: flex;
+    flex-direction: row;
+    color:#F9FAFC;
+    align-items: center;
+    gap: 24px;
+
+}
+
+.telefone-branco{
+    width: 15.91px;
+    height: 15.94px;
+}
+
+.lugar{
+    width: 14.4px;
+    height: 17.6px;
+}
+
+.mensagem{
+    width: 16px;
+    height: 12.8px;
+}
+
+.logo-final{
+    display: flex;
+    gap: 24px;
+}
+
+.nomes-grid{
+    display: flex;
+    gap:10px;
+    color:#C0CCDA;
+    
+}
+
+.titulo h1{
+    margin-right: 556px;
+    margin-top:214px;
+    font-size: 38px;
+    
+
+}
+
+.subtitulo{
+    color:#2648A1;
+    display:flex;
+    flex-direction: column;
+    font-size: 21px;
+    text-align: right;
+    line-height: 0px;
+    
+}
+
+.d-block{display: block;}
+
+
+.card{
+    border-radius: .25em;
+    display: block;
+    color: blue;
+    border: 1px solid;
+    text-decoration: none;
+    width: 300px;
+    height: 300px;
+  }
+  
+  .card figure{
+    margin: 0;
+  }
+  .card figure img{
+    max-width: 100%;
+    transform: scale(120%);  
+    margin-bottom: 0.75em;
+  }
+  .card figure figcaption{
+    padding: 1em;
+  }
+  
+  .card figure figcaption strong{
+    font-size: 1.5em;
+    margin-bottom: .25em;
+  }
+
+  .texto{
+    width: 785px;
+    height: 288px;
+  }
+
+@media (max-width: 568px){
+    .container2{
+
+    }
+}
