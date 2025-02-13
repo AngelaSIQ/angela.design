@@ -3,10 +3,7 @@ body{
 }
 
 main{
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+   
 }
 
 
@@ -106,8 +103,6 @@ main{
 }
 
 .titulo h1{
-    margin-right: 556px;
-    margin-top:214px;
     font-size: 38px;
 
 }
@@ -178,9 +173,21 @@ main{
     
 }
 
+.container4{
+    color: #2648A1;
+    line-height: 8px;
+} 
+
+
+.container5{
+    color: #2648A1;
+    line-height: 10px;
+}
+
 @media (max-width: 568px){
     .container1{
         display:none
+    
     }
 
     .container2{
@@ -200,6 +207,30 @@ main{
         position: relative;
        
     }
+    
+    .corpo1{
+       display: flex;
+       gap:50px;
+       
+       
+    }
 
+    .titulo h1{
+        padding-left: 16px;
+       
+    }
 
-}
+    .container3 img{
+        padding-left: 44.68px;
+    }
+
+    .container3 p{
+        align-self: stretch;
+       
+    }
+
+    .card{
+        padding-left: 60px;
+    }
+
+}    
