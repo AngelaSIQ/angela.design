@@ -50,16 +50,6 @@ main{
     padding-right: 300px;
 }
 
-.final{
-    background: linear-gradient(
-        #0D3F82, #001736); 
-    width:1900px ;
-    height:398px ;
-    display: flex;
-    justify-content: end;
-        
-}
-
 .pipa-final{
     width: 272px;
     height: 278px;
@@ -69,7 +59,12 @@ main{
 }
 
 .final-section{
+    background: linear-gradient(
+        #0D3F82, #001736); 
+    width:1900px ;
+    height:398px ;
     display: flex;
+    justify-content: end;
     gap:50px;
    
 }
@@ -106,7 +101,7 @@ main{
 .nomes-grid{
     display: flex;
     gap:10px;
-    color:#C0CCDA;
+    color:#92b3d8;
     
 }
 
@@ -114,7 +109,6 @@ main{
     margin-right: 556px;
     margin-top:214px;
     font-size: 38px;
-    
 
 }
 
@@ -128,7 +122,9 @@ main{
     
 }
 
-.d-block{display: block;}
+.d-block{
+    display: block;
+}
 
 
 .card{
@@ -139,41 +135,48 @@ main{
     text-decoration: none;
     width: 300px;
     height: 300px;
-  }
+}
   
-  .card figure{
+.card figure{
     margin: 0;
-  }
-  .card figure img{
+}
+
+.card figure img{
     max-width: 100%;
     transform: scale(120%);  
     margin-bottom: 0.75em;
-  }
-  .card figure figcaption{
+}
+
+.card figure figcaption{
     padding: 1em;
-  }
+}
   
-  .card figure figcaption strong{
+.card figure figcaption strong{
     font-size: 1.5em;
     margin-bottom: .25em;
-  }
+}
 
-  .texto{
+.texto{
     width: 785px;
     height: 288px;
-  }
+}
 
-  .corpo1{
+.corpo1{
       display: flex;
       flex-direction: column;
-      align-items: center;
-  }
+     
+}
 
-  .fotos{
+.fotos{
       display: flex;
       flex-direction: row;
       gap:4px;
-  }
+}
+
+.barras{
+    display: none;
+    
+}
 
 @media (max-width: 568px){
     .container1{
@@ -181,8 +184,8 @@ main{
     }
 
     .container2{
-        position: fixed;
-        width: 100%;
+        width: 105vh;
+        padding-left: 20px;
     
     }
 
@@ -191,7 +194,12 @@ main{
     }
 
     .container2 .barras{
-        display:block;
+        display: flex;
+        align-items: center;
+        padding-right:30px;
+        position: relative;
+       
     }
+
 
 }
