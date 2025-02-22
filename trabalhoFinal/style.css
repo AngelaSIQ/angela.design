@@ -1,6 +1,12 @@
 header{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    border-bottom: solid 1px #E5E7EB;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .suspender-inscrições{
@@ -10,11 +16,71 @@ header{
     gap:10px;
     width: 194px;
     height: 32px;
-    justify-items: center;
-    border-radius: ;
-
+    border-radius: 4px;
+    padding-left:10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    align-items: center;
+    
 }
 
 .suspender-inscrições p{
     color:#FEFEFE;
+  
+}
+
+.suspender-inscrições img{
+    padding-left: 10px;
+}
+
+
+
+.progress-container {
+    position: relative;
+    width: 32px;
+    height: 32px;
+}
+
+.anel {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.anel img {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+}
+
+.circulo {
+    position: absolute;
+    transform: rotate(-90deg);
+}
+
+circle {
+    fill: none;
+    stroke-width: 3;
+    stroke-linecap: round;
+}
+
+.background {
+    stroke: #e0e0e0; /* Cor do círculo de fundo */
+}
+
+.progress {
+    stroke: #f78b2d; /* Cor da barra de progresso */
+    stroke-dasharray: 88; /* Perímetro do círculo */
+    stroke-dashoffset: 60; /* Define a porcentagem preenchida */
+    transition: stroke-dashoffset 0.5s ease;
+}
+
+.itens-usuario{
+    display:flex;
+    
 }
