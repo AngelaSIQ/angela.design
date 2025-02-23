@@ -1,3 +1,9 @@
+body{
+    width: ;
+    height: ;
+}
+
+
 header{
     display: flex;
     flex-direction: row;
@@ -7,6 +13,11 @@ header{
     padding-right: 16px;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
 }
 
 .suspender-inscrições{
@@ -32,8 +43,6 @@ header{
 .suspender-inscrições img{
     padding-left: 10px;
 }
-
-
 
 .progress-container {
     position: relative;
@@ -83,4 +92,95 @@ circle {
 .itens-usuario{
     display:flex;
     
+}
+
+.dashboard{
+    display: flex;
+    flex-direction: row;
+    width:167px;
+    height:44px;
+    background-color: #F2F9FD;
+}
+
+.bloco-azul{
+    background-color: blue;
+    width: 44px;
+    height: 44px;
+}
+
+.bloco-azul img{
+    margin:10px;
+    width: 24px;
+    height: 24px;
+}
+
+.nome-dashboard{
+    margin:10px;
+    display: flex;
+    align-items: center;
+    color:#0D5EAF;
+}
+
+.ajustes{
+    display:flex;
+    flex-direction: row;
+}
+
+.configurações-sair{
+    border-top: solid 1px #E7EBF2;
+    width: 167px;
+    height: 128px;
+    margin-top:600px;
+    margin-bottom:20px;
+  
+}
+
+.container1{
+    width:215px;
+    height:1,101px;
+    border-right: solid 1px #E5E7EB;
+}
+
+.container2{
+    margin-left:40px;
+}
+
+.seta{
+    margin-left:160px;
+    margin-top:5px;
+
+}
+
+.titulo{
+    gap:30px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 402px;
+    height:61px;
+
+}
+
+.titulo img{
+    width: 22px;
+    height: 22px;
+    margin-top: 20px;
+}
+
+.subtitulo{
+    display:flex;
+    flex-direction: row;
+    gap:20px;
+}
+
+.itens-subtitulo{
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+
+.informações{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
 }
