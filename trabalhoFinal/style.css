@@ -204,16 +204,88 @@ circle {
     gap:200px;
 }
 
-.quadrado1{
+.quadrado{
     background-color:#F2F9FD;
     width: 253px;
     height: 150px;
     border-radius:8px;
+    padding:20px;
 
 }
 
-.quadrado-inscrições{
+.quadrado-itens{
     display:flex;
     flex-direction: row;
     gap:30px;
+    justify-content: space-between;
+}
+
+.quadrados{
+    display:flex;
+    flex-direction:row;
+    gap:30px;
+}
+
+.numero{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+}
+
+.numero-azul{
+    color:#2E96C9;
+}
+
+.mais-rs{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap:8px;
+}
+
+.titulo-funçoes{
+    display: flex;
+    gap:5px;
+    align-items: center;
+}
+
+.rapidas{
+    color:#494E54;
+}
+
+.quadrado-funções{
+    width: 110px;
+    height:110px ;
+    border: solid 1px #2E96C9;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+   
+    
+}
+
+.quadrados-funcoes{
+    display:flex;
+    flex-direction: row;
+    gap:24px
+}
+
+.titulo-ultimas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:5px
+}
+
+.titulo-total{
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    gap:250px;
+}
+
+.titulo-total a{
+    color:#3F5E94;
+
 }
