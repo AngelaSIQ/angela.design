@@ -203,3 +203,17 @@ circle {
     flex-direction: row;
     gap:200px;
 }
+
+.quadrado1{
+    background-color:#F2F9FD;
+    width: 253px;
+    height: 150px;
+    border-radius:8px;
+
+}
+
+.quadrado-inscrições{
+    display:flex;
+    flex-direction: row;
+    gap:30px;
+}
