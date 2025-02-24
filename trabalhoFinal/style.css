@@ -1,6 +1,5 @@
 body{
-    width: ;
-    height: ;
+    
 }
 
 
@@ -99,14 +98,35 @@ circle {
     flex-direction: row;
     width:167px;
     height:44px;
-    background-color: #F2F9FD;
 }
 
 .bloco-azul{
-    background-color: blue;
     width: 44px;
     height: 44px;
 }
+
+.bloco-azul:hover{
+    background-color: #F2F9FD;
+}
+
+.dashboard:hover{
+    background-color: #F2F9FD;
+}
+
+.bloco-azul:active{
+    background-color: #0D5EAF;
+
+}
+
+.dashboard:active{
+    background-color: #F2F9FD;
+}
+
+.bloco-azul a:active{
+    color:#FFFF;
+
+}
+
 
 .bloco-azul img{
     margin:10px;
