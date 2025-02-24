@@ -184,3 +184,22 @@ circle {
     flex-direction:column;
     gap:20px;
 }
+
+.editar{
+    display:flex;
+    flex-direction: row;
+    background-color:#F2F9FD;
+    width:101px ;
+    height: 36px;
+    margin-top:20px;
+    align-items: center;
+    padding-left:20px;
+    gap:8px;
+    border-radius:5px;
+}
+
+.parte-cima{
+    display:flex;
+    flex-direction: row;
+    gap:200px;
+}
