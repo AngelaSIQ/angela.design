@@ -163,6 +163,7 @@ circle {
 
 .container2{
     margin-left:40px;
+    margin-right:19px;
 }
 
 .seta{
@@ -281,8 +282,20 @@ circle {
     display: flex;
     align-items: center;
     flex-direction:column;
-   
-    
+ 
+}
+
+.quadrado-pontilhado{
+    width: 110px;
+    height:90px;
+    border: 1px #90CAE9;
+    border-style: dashed;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+    padding-top: 20px;
+
 }
 
 .quadrados-funcoes{
@@ -341,20 +354,102 @@ circle {
 .sessão{
     display: flex;
     flex-direction: row;
+    gap:24px;
 }
 
 .padrao-quadrados{
-    width: ;
-    height: ;
-    background-color: green;
-    
+    width: 77px;
+    height: 81px;
+    line-height: 0px; 
+    text-align: center;   
 }
 
-.padrao-quadrados p{
+.padrao-quadrados p, h4{
     color:#FEFEFE;
 }
 
 .quadrados-porcentagem{
     display: flex;
     flex-direction: row;
+}
+
+.azul1{
+    background-color: #2E96C9;
+}
+
+.azul2{
+    background-color:#4FADDB;
+}
+
+.azul3{
+    background-color: #90CAE9;
+}
+
+.azul4{
+    background-color: #E4F1FA;
+}
+
+
+.nome-usuario{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 30px;
+}
+
+.degrade{
+    width: 466px;
+    height: 43px;
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, blue 77.9%);  
+
+}
+
+.texto-preto{
+    color:#1A1C20;
+}
+
+.padrao-quadrados p{
+    margin-top:0;
+}
+
+.padrao-quadrados h4{
+    margin-top: 30px;
+}
+
+.quadrado-funções img{
+    padding-top:20px;
+}
+
+.elementos-row{
+    display: flex;
+    flex-direction: row;
+    gap:16px;
+}
+
+.nome-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.outros{
+    line-height: 0;
+    display: flex;
+    flex-direction: row;
+    gap:6px;
+}
+
+.nome-row img{
+    padding-right: 6px;
+}
+
+.container3{
+    display: inline-flex;
+    height: 1101px;
+    padding: var(--spacing-spacing-xl, 48px) var(--spacing-spacing-md, 24px) var(--spacing-spacing-lg, 32px) var(--spacing-spacing-md, 24px);
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    flex-shrink: 0;
+    background-color: black;
 }

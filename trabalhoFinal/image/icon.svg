@@ -1,0 +1,33 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="24" height="24" fill="#1E1E1E"/>
+<g id="home (admin-evento)" clip-path="url(#clip0_0_1)">
+<rect width="1440" height="1174" transform="translate(-34 -123)" fill="white"/>
+<g id="nav">
+<mask id="path-1-inside-1_0_1" fill="white">
+<path d="M-34 -50H181V1051H-34V-50Z"/>
+</mask>
+<path d="M180 -50V1051H182V-50H180Z" fill="#E5E7EB" mask="url(#path-1-inside-1_0_1)"/>
+<g id="menu">
+<g id="item-menu">
+<rect width="167" height="44" transform="translate(-10 -10)" fill="#F2F9FD"/>
+<g id="container-icon">
+<rect width="44" height="44" transform="translate(-10 -10)" fill="#0D5EAF"/>
+<g id="icon">
+<g id="icon_2">
+<path id="Vector" d="M10.2222 4H4V10.2222H10.2222V4Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M19.9999 4H13.7777V10.2222H19.9999V4Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M19.9999 13.7778H13.7777V20H19.9999V13.7778Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M10.2222 13.7778H4V20H10.2222V13.7778Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_0_1">
+<rect width="1440" height="1174" fill="white" transform="translate(-34 -123)"/>
+</clipPath>
+</defs>
+</svg>
