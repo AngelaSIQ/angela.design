@@ -475,7 +475,7 @@ circle {
     margin-top: 30px;
 }
 
-.quadrado-funções img{
+.quadrado-funções svg{
     padding-top:20px;
 }
 
@@ -619,7 +619,33 @@ circle {
 
 }
 
-.bloco-azul svg:hover{
-    stroke: white;
+.bloco-azul svg:active path {
+    stroke:white;
 
+}
+
+.bloco-azul svg{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.quadrado-funções svg:hover path{
+    stroke:white;
+}
+
+.quadrado-funções:hover {
+    background-color: #2E96C9;
+}
+
+.quadrado-funções p:hover{
+    color:#fff;
+}
+
+.quadrado-funções svg + .quadrado-funções p:hover path{
+    stroke:white;
+    color:white;
+}
+
+.conteudo-final:hover{
+    background-color: #E3F4FE;;
 }
