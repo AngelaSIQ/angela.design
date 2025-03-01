@@ -134,7 +134,7 @@ circle {
     background-color: #F2F9FD;
 }
 
-.bloco-azul a:active{
+.bloco-azul:active a{
     color:#FFFF;
 
 }
@@ -619,7 +619,7 @@ circle {
 
 }
 
-.bloco-azul svg:active path {
+.bloco-azul:active svg path {
     stroke:white;
 
 }
@@ -629,7 +629,7 @@ circle {
     margin-left: 10px;
 }
 
-.quadrado-funções svg:hover path{
+.quadrado-funções:hover svg path{
     stroke:white;
 }
 
@@ -637,15 +637,14 @@ circle {
     background-color: #2E96C9;
 }
 
-.quadrado-funções p:hover{
+.quadrado-funções:hover p{
     color:#fff;
 }
 
-.quadrado-funções svg + .quadrado-funções p:hover path{
-    stroke:white;
-    color:white;
+.conteudo-final:hover{
+    background-color: #E3F4FE;
 }
 
-.conteudo-final:hover{
-    background-color: #E3F4FE;;
+.suspender-inscrições:hover {
+    background-color: #FD8535;
 }
