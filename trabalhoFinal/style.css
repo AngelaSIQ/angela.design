@@ -1,12 +1,13 @@
 body{
     font-family: "Roboto", sans-serif;
+    width: 1440px;
+    height: 1174px;
     
   }
 
 
 header{
     display: flex;
-    flex-direction: row;
     border-bottom: solid 1px #E5E7EB;
     width: 1440px;
     padding: var(--spacing-spacing-base, 16px) var(--spacing-spacing-lg, 32px);
@@ -75,6 +76,7 @@ main{
     flex-direction: row;
     align-items: center;
     gap:16px;
+    margin-top: -5px;
 
 }
 
@@ -90,13 +92,13 @@ circle {
 }
 
 .background {
-    stroke: #e0e0e0; /* Cor do círculo de fundo */
+    stroke: #e0e0e0;
 }
 
 .progress {
-    stroke: #f78b2d; /* Cor da barra de progresso */
-    stroke-dasharray: 88; /* Perímetro do círculo */
-    stroke-dashoffset: 60; /* Define a porcentagem preenchida */
+    stroke: #f78b2d; 
+    stroke-dasharray: 88; 
+    stroke-dashoffset: 60; 
     transition: stroke-dashoffset 0.5s ease;
 }
 
@@ -125,20 +127,10 @@ circle {
     background-color: #F2F9FD;
 }
 
-.bloco-azul:active{
+.dashboard:active .bloco-azul{
     background-color: #0D5EAF;
 
 }
-
-.dashboard:active{
-    background-color: #F2F9FD;
-}
-
-.bloco-azul:active a{
-    color:#FFFF;
-
-}
-
 
 .bloco-azul img{
     margin:10px;
@@ -163,7 +155,9 @@ circle {
     width: 167px;
     height: 128px;
     margin-top:600px;
-    margin-bottom:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
   
 }
 
@@ -182,7 +176,6 @@ circle {
     margin-left:150px;
     margin-top:8px;
     margin-right: 20px;
-
 
 }
 
@@ -206,6 +199,7 @@ circle {
     display:flex;
     flex-direction: row;
     gap:20px;
+
 }
 
 .itens-subtitulo{
@@ -213,6 +207,7 @@ circle {
     align-items: center;
     gap:5px;
 }
+
 
 .informações{
     display:flex;
@@ -292,8 +287,9 @@ circle {
 
 .numero{
     display:flex;
-    flex-direction:row;
-    align-items: center;
+    flex-direction: row;
+    align-self: center;
+
 }
 
 .numero-azul{
@@ -426,7 +422,6 @@ circle {
     color:#FFF;
 }
 
-
 .quadrados-porcentagem{
     display: flex;
     flex-direction: row;
@@ -448,7 +443,6 @@ circle {
     background-color: #E4F1FA;
 }
 
-
 .nome-usuario{
     display: flex;
     align-items: center;
@@ -458,9 +452,12 @@ circle {
 
 .degrade{
     width: 466px;
-    height: 43px;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, grey 77.9%);
-
+    height: 44px;
+    scale:1.05;
+    z-index:2;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 80%);
+    position: absolute;
 }
 
 .texto-preto{
@@ -524,7 +521,14 @@ circle {
     color: #092049;
     font-family: Roboto;
     font-size: 14px;
+    display:flex;
+    line-height: 0;
 
+}
+
+.titulo-pendencias{
+    align-self: stretch;
+    margin-left: 10px;
 }
 
 .icone-notificação{
@@ -534,7 +538,7 @@ circle {
     justify-content: center;
     width:36px ;
     height: 36px;
-    border:none;
+    border: #E7EBF2;
     outline:none;
     border-radius:50%;
     background: #E7EBF2;
@@ -619,7 +623,7 @@ circle {
 
 }
 
-.bloco-azul:active svg path {
+.dashboard:active .bloco-azul svg path {
     stroke:white;
 
 }
@@ -647,4 +651,47 @@ circle {
 
 .suspender-inscrições:hover {
     background-color: #FD8535;
+}
+
+.ajuste-imagem{
+    width:18px;
+    height:18px;
+    padding-top: 12px;
+    padding-right:16px;
+}
+
+
+.alinhando-texto{
+    padding-top: 28px;
+}
+
+.alinhando-imagem{
+    display: flex;
+   
+}
+
+.sessão-notificações:hover{
+    background-color: #0D5EAF;
+}
+
+.sessão-notificações:hover:hover .icone-notificação path{
+    stroke:#E5E7EB;
+}
+
+.sessão-notificações:hover b{
+    color: #E5E7EB;
+}
+
+.sessão-notificações:hover .notificação{
+    background-color: #0D5EAF;
+    
+}
+
+.sessão-notificações:hover button{
+    border: solid #E5E7EB 1px;
+    background-color: #0D5EAF;
+}
+
+.cinza{
+    color:#797D84;
 }
